@@ -1,5 +1,7 @@
 # Laser-Hockey
 
+![img](assets/hockeyenv1.png)
+
 This repository contains the code and report of team "Bellman's Bandits" for the 2025 Reinforcement Learning laser-hockey competition at the University of Tübingen, based on the laser-hockey environment.
 
 Our team implemented the three algorithms SAC, TD3 and Rainbow, the latter of which won the third price in the final tournament of the course.
