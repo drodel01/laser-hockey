@@ -6,7 +6,7 @@ Our team implemented the three algorithms SAC, TD3 and Rainbow, the latter of wh
 
 # Installation
 
-For installation of the laser-hockey environment and usage examples, see [https://github.com/martius-lab/hockey-env].
+For installation of the laser-hockey environment and usage examples, see [https://github.com/martius-lab/hockey-env](https://github.com/martius-lab/hockey-env).
 
 The algorithms provided here are implemented independently, hence each folder of this repository contains its own requirements. To install, use
 
