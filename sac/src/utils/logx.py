@@ -1,3 +1,8 @@
+"""
+Simple logging functionality, inspired by rllab's logging.
+
+Source: https://github.com/rll/rllab
+"""
 import json
 from typing import Any, Optional
 
@@ -77,12 +82,12 @@ class Logger:
             self.log_headers.append(key)
         else:
             assert key in self.log_headers, (
-                "Trying to introduce a new key %s that you didn't include in the first iteration"
-                % key
+                    "Trying to introduce a new key %s that you didn't include in the first iteration"
+                    % key
             )
         assert key not in self.log_current_row, (
-            "You already set %s this iteration. Maybe you forgot to call dump_tabular()"
-            % key
+                "You already set %s this iteration. Maybe you forgot to call dump_tabular()"
+                % key
         )
         self.log_current_row[key] = val
 
@@ -138,11 +143,11 @@ class EpochLogger(Logger):
             self.epoch_dict[k].append(v)
 
     def log_tabular(
-        self,
-        key: str,
-        val: Any = None,
-        with_min_and_max: bool = False,
-        average_only: bool = False,
+            self,
+            key: str,
+            val: Any = None,
+            with_min_and_max: bool = False,
+            average_only: bool = False,
     ):
         """
         Log a value or possibly the mean/std/min/max values of a diagnostic.
