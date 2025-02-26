@@ -1,0 +1,7 @@
+gymnasium
+torch
+tensordict
+numpy
+tqdm
+tensorboard
+box2d-py

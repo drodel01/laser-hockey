@@ -1,0 +1,23 @@
+model:
+  tau: 0.005
+  gamma: 0.99
+  policy_noise: 0.2
+  noise_clip: 0.5
+  policy_delay: 3
+  buffer_size: 1000000
+  num_bins: 6
+  actor_hidden_sizes: [256, 256]
+  critic_hidden_sizes: [512, 512, 256]
+  device: "auto"
+
+learn:
+  total_timesteps: 3000000
+  num_test_episodes: 50
+  learning_starts: 10000
+  batch_size: 256
+  learning_rate: 0.0007
+  save_freq: 10000
+  eval_freq: 1000
+  betas: [0.5, 0.999]
+  seed: 42
+  log_dir: "./logs/catQ/512x512x256/6/42"
