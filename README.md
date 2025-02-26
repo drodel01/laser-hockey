@@ -10,6 +10,6 @@ For installation of the laser-hockey environment and usage examples, see [https:
 
 The algorithms provided here are implemented independently, hence each folder of this repository contains its own requirements. To install, use
 
-  python -m pip install -r requirements.txt
+    python -m pip install -r requirements.txt
 
 within the desired algorithm's folder.
