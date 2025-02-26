@@ -1,0 +1,8 @@
+torch
+git+https://github.com/martius-lab/hockey-env.git
+gymnasium
+numpy
+box2d-py
+pygame
+tqdm
+matplotlib

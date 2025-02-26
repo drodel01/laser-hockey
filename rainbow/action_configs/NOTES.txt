@@ -1,0 +1,4 @@
+compromise:
+- never combine left/right with top/bottom but combine them with rotation
+-> Here left/right are from the players perspective!! This is the second element of the array
+PLAYERS PERSPECTIVE: [top/bottom, left/right, spin, shoot]
